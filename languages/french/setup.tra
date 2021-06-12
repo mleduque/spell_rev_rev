@@ -1,0 +1,9 @@
+//Group names => Noms de groupes de composants.
+//Component strings => Noms de composants.
+@0 = "Modifications de Spell Revisions"
+@1 = "Ajustements de Spell Revisions"
+
+//Error strings => Messages d'erreur.
+@10 = "Modification exclusivement pour BG2 Enhanced Edition."
+@11 = "Le composant principal du mod Spell Revisions est nécessaire."
+@12 = "Le composant 'modifications' de ce mod est nécessaire."

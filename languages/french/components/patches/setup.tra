@@ -1,0 +1,387 @@
+//Description strings => Descriptions.
+//Arcane spells => Sorts profanes.
+//Level 2.
+@1200 = ~Connaissance de l'Adversaire
+Niveau : 2
+École : Divination
+Portée : longue
+Durée : 2 tours
+Temps d'incantation : 2
+Zone d'effet : 1 créature 
+Jet de sauvegarde : aucun
+
+Lorsque ce sort est lancé, les yeux du magicien rayonnent d'énergie magique, lui permettant de lire l'aura d'une créature, et ainsi découvrir ses forces et ses faiblesses. Pendant toute la durée du sort, la résistance physique de la cible est réduite de 10 % et tous les jets d'attaques contre cette cible reçoivent un bonus de +2. Certains dispositifs magiques annulent les effets d'une Connaissance de l'Adversaire. De plus, ce sort n'a aucun effet contre les créatures ne dégageant pas d'aura, comme les créatures artificielles. La résistance magique de la cible est ignorée.~
+
+//Level 4.
+@1400 = ~Globe Mineur d'Invulnérabilité
+Niveau : 4
+École : Abjuration
+Portée : jeteur du sort
+Durée : 2 tours
+Temps d'incantation : 4 
+Zone d'effet : jeteur du sort
+Jet de sauvegarde : aucun
+
+Ce sort crée autour du lanceur de sorts une sphère magique faiblement phosphorescente qui empêche tous les sorts de premier, second et troisième niveau d'y pénétrer (i.e. : la zone d'effet de ces sorts n'inclut pas l'espace du Globe Mineur d'Invulnérabilité). Cela comprend les capacités innées et les effets des dispositifs. N'importe quel sort peut cependant être jeté depuis l'intérieur de la sphère sans pour autant affecter le Globe Mineur d'Invulnérabilité. Les sorts de 4ème niveau et plus ne sont pas affectés par ce sort. Ce globe peut être détruit par un sort de Dissipation de la Magie.~
+
+@1401 = ~Grande Malédiction
+Niveau : 4
+École : Enchantement
+Portée : longue
+Durée : 2 rounds / niveau
+Temps d'incantation : 4
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : aucun
+
+Ce sort permet au lanceur du sort d'affecter négativement les jets de sauvegarde de ses ennemis. L'effet est appliqué à toute créature hostile dans la zone d'effet. Les adversaires sous l'influence de ce sort souffrent d'une pénalité de -2 à tous leurs jets de sauvegarde et subissent un point de dégât supplémentaire pour chaque dé de dégât de sort lancé. Les effets de ce sort ne sont pas cumulatifs.~
+
+@1402 = ~Champ de Téléportation
+Niveau : 4
+École : Altération
+Portée : longue
+Durée : 1 tour
+Temps d'incantation : 4
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde contre les sorts : annule
+
+Ce sort crée une zone de téléportation dans le champ visuel du magicien. Toutes les créatures ennemies dans la zone sont téléportées aléatoirement pendant la durée du sort, à moins de réussir un jet de sauvegarde contre les sorts à -4. Ce sort est très efficace contre les groupes d'ennemis, permettant de les disperser et de donner un répit au magicien pour préparer ses défenses..~
+
+@1405 = ~Annulation d'Enchantement
+Niveau : 4
+École : Abjuration
+Portée : courte
+Durée : permanente
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Avec ce sort, le mage peut libérer une victime d'enchantements ou de malédictions. Le sort peut inverser les effets de Charme, Confusion et de Débilité Mentale, libérer une victime d'une pétrification, d'un sommeil ou d'un charme magique, et annuler les effets d'une malédiction. Annulation d'Enchantement ne permet pas de supprimer la malédiction d'une arme ou d'un objet magique, mais permet à un personnage porteur d'un objet maudit de s'en débarrasser. Certaines malédictions spéciales ne sont pas neutralisées par ce sort, ou ne peuvent l'être que par un magicien d'un certain niveau ou grâce à un rituel particulier.~
+
+@1410 = ~Protection contre l'Électricité
+Niveau : 4
+École : Abjuration
+Portée : toucher
+Durée : 1 tour / niveau
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Quand un sort de Protection contre l'Électricité est lancé, la cible reçoit une invulnérabilité totale à toutes les attaques basées sur l'électricité, qu'elles soient magiques ou non. 100 % des dégâts causés par des attaques comme le souffle électrique d'un dragon seront absorbés, et la créature ciblée devient complètement immunisée aux effets de sorts comme Eclair, Glyphe de Garde, Appel de la Foudre, et Chaîne d'Éclairs. Les effets de ce sort ne sont pas cumulatifs.~
+
+@1411 = ~Protection contre l'Acide
+Niveau : 4
+École : Abjuration
+Portée : toucher
+Durée : 1 tour / niveau
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Quand un sort de Protection contre l'Acide est lancé, la cible reçoit une invulnérabilité totale à toutes les attaques basées sur l'acide, qu'elles soient magiques ou non. 100 % des dégâts causés par des attaques comme le souffle acide d'un dragon seront absorbés, et la créature ciblée devient complètement immunisée aux effets de sorts comme Brume Acide. Les effets de ce sort ne sont pas cumulatifs.~
+
+//Level 5.
+@1500 = ~Brèche
+Niveau : 5
+École : Abjuration
+Portée : longue
+Durée : instantanée
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Quand ce sort est lancé sur une créature, il dissipe toutes les protections de combat ou les protections particulières qu'elle pouvait posséder. La résistance magique de la cible est ignorée.
+
+Les sorts de protection particulière dissipés sont : Résistance à la Peur, Résistance aux Éléments, Prévention de la Mort, Action Libre, Protection contre l'Acide, Protection contre le Froid, Protection contre l'Électricité, Protection contre le Feu, Ordres Chaotiques, Protection contre l'Énergie Magique, Protection contre les Éléments, Protection contre l'Énergie et Esprit Vierge.
+
+Les sorts de protection de combat dissipés sont : Armure de Mage, Bouclier, Armure de la Foi, Peau d'Écorce, Protection contre les Projectiles, Armure Spirituelle, Peau de Pierre, Protection contre les Armes Non-Magiques, Protection contre les Armes Magiques, Miroir Physique, Manteau Prismatique, Moment de Prescience et Immunité Absolue.~
+
+//Level 6.
+@1600 = ~Globe d'Invulnérabilité
+Niveau : 6
+École : Abjuration
+Portée : jeteur du sort
+Durée : 2 tours
+Temps d'incantation : 6
+Zone d'effet : jeteur du sort
+Jet de sauvegarde : aucun
+
+Ce sort crée autour du lanceur de sorts une sphère magique faiblement phosphorescente qui empêche tous les sorts de premier, second, troisième et quatrième niveau d'y pénétrer (i.e. : la zone d'effet de ces sorts n'inclut pas l'espace du Globe d'Invulnérabilité). Cela comprend les capacités innées et les effets des dispositifs. N'importe quel sort peut cependant être jeté depuis l'intérieur de la sphère sans pour autant affecter le Globe d'Invulnérabilité. Les sorts de 5ème niveau et plus ne sont pas affectés par ce sort. Ce globe peut être détruit par un sort de Dissipation de la Magie ou d'autres formes dassaut magiques comme un sort de Perce-Magie ou d'Anéantissement des Défenses.~
+
+@1601 = ~Protection contre l'Énergie Magique
+Niveau : 6
+École : Abjuration
+Portée : toucher
+Durée : 1 tour / niveau
+Temps d'incantation : 6
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Quand un sort de Protection contre l'Énergie Magique est lancé, la cible reçoit une invulnérabilité totale à toutes les attaques basées sur les dégâts magiques. 100 % des dégâts causés par des attaques comme Blessures Critiques seront absorbés, et la créature ciblée devient complètement immunisée aux effets de sorts comme Projectile Magique, Piège à Crânes, Désintégration et Flétrissure Abominable. L'effet du sort dure jusqu'à expiration ou dissipation.~
+
+@1602 = ~Perce-Magie
+Niveau : 6
+École : Abjuration
+Portée : longue
+Durée : spéciale
+Temps d'incantation : 6
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce sort a deux effets majeurs sur sa cible. Tout d'abord, une protection magique d'un niveau inférieur ou égal au 8ème est dissipée. La protection magique dissipée sera toujours celle de niveau le plus élevé. Si deux protections ou plus sont du même niveau, le sort dissipé sera choisi aléatoirement. Le second effet du sortilège est que la résistance à la magie de la créature est temporairement annulée. Cette résistance reste abaissée durant 2 rounds, et cet effet ne peut en aucune manière être dissipé. La résistance magique de la cible est ignorée.
+
+Les sorts de protection magique dissipés par Perce-Magie sont : Déviation de Sorts Mineure, Non-Détection, Globe Mineur d'Invulnérabilité, Déviation de Sorts, Écran de Dissipation, Bouclier de Sort, Globe d'Invulnérabilité, Déviation de Sorts Majeure et Bouclier des Archontes.~
+
+//Level 7.
+@1700 = ~Doigt de Mort
+Niveau : 7
+École : Nécromancie
+Portée : longue
+Durée : instantanée
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde contre la mort : partiel
+
+Le sort Doigt de Mort absorbe la force vitale de la victime. Le lanceur du sort pointe son doigt en direction de sa cible une fois l'incantation terminée. Si la cible rate un jet de sauvegarde contre la mort à -2, elle est tuée sur le coup. Dans le cas d'un jet de sauvegarde réussi, elle reçoit malgré tout 2d8 points de dégâts plus un point par niveau de lanceur de sorts avec un maximum de 2d8 + 20 points de dégâts.~
+
+@1701 = ~Rayon Rubis d'Inversion
+Niveau : 7
+École : Altération
+Portée : longue
+Durée : instantanée
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce sort annule une protection magique de n'importe quel niveau sur la cible. La protection magique dissipée sera toujours celle de niveau le plus élevé. Si deux protections ou plus sont du même niveau, le sort dissipé sera choisi aléatoirement. La résistance magique des créatures affectées est ignorée.
+
+Les sorts de protection magique dissipés par le Rayon Rubis d'Inversion sont : Déviation de Sorts Mineure, Non-Détection, Globe Mineur d'Invulnérabilité, Déviation de Sorts, Écran de Dissipation, Globe d'Invulnérabilité, Déviation de Sorts Majeure, Bouclier des Archontes et Piège à Sorts.~
+
+@1702 = ~Fouet Protecteur de Khelben
+Niveau : 7
+École : Évocation
+Portée : moyenne
+Durée : 3 rounds
+Temps d'incantation : 7
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce sort dissipe l'une des protections magiques (jusqu'au 8ème niveau) de la cible. Ensuite, une protection magique supplémentaire est dissipée par round, jusqu'à expiration du sort. La protection magique dissipée sera toujours celle de niveau le plus élevé. Si deux protections ou plus sont du même niveau, le sort dissipé sera choisi aléatoirement. La résistance magique de la cible est ignorée.
+
+Les sorts de protection magique dissipés par le Fouet Protecteur de Khelben sont : Déviation de Sorts Mineure, Non-Détection, Globe Mineur d'Invulnérabilité, Déviation de Sorts, Écran de Dissipation, Globe d'Invulnérabilité, Déviation de Sorts Majeure et Bouclier des Archontes.~
+
+//Level 8.
+@1800 = ~Perce-Bouclier
+Niveau : 8
+École : Abjuration
+Portée : longue
+Durée : spéciale
+Temps d'incantation : 8
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Avec ce sort, le magicien lance une attaque massive contre les défenses physiques et magiques de la cible. Perce-Bouclier dissipe une protection magique de n'importe quel niveau sur la cible. La protection magique dissipée sera toujours celle de niveau le plus élevé. Si deux protections ou plus sont du même niveau, le sort dissipé sera choisi aléatoirement. Après avoir pénétré ses protections magiques, ce puissant sort va dissiper tous les sorts de protection de combat de la cible. La résistance magique de la cible est ignorée.
+
+Les sorts de protection magiques dissipés sont : Déviation de Sorts Mineure, Globe Mineur d'Invulnérabilité, Déviation de Sorts, Écran de Dissipation, Globe d'Invulnérabilité, Déviation de Sorts Majeure, Bouclier des Archontes et Piège à Sorts.
+
+Les sorts de protection de combat dissipés sont : Armure de Mage, Bouclier, Armure de la Foi, Peau d'Écorce, Protection contre les Projectiles, Armure Spirituelle, Peau de Pierre, Protection contre les Armes Non-Magiques, Protection contre les Armes Magiques, Miroir Physique, Manteau Prismatique, Moment de Prescience et Immunité Absolue.~
+
+@1801 = ~Poing Glacé de Bigby
+Niveau : 8
+École : Évocation
+Portée : longue
+Durée : 8 rounds 
+Temps d'incantation : 8 
+Zone d'effet : 1 créature
+Jet de sauvegarde : spécial
+
+Ce sort crée une gigantesque main désincarnée qui écrase la cible et la maintient au sol. Chaque round, l'énorme main frappe la cible provoquant 2d8 points de dégâts de froid et l'immobilisant' pour 1 round à moins de réussir un jet de sauvegarde contre le souffle à -2. Les élémentaires et les créatures désincarnées comme les ombres et les âmes-en-peine sont immunisées contre l'immobilisation. Au bout de 8 rounds, le sort se termine.~
+
+//Level 9.
+@1900 = ~Piège à Sorts
+Niveau : 9
+École : Abjuration
+Portée : jeteur du sort
+Durée : 2 tours
+Temps d'incantation : 1 round
+Zone d'effet : jeteur du sort
+Jet de sauvegarde : aucun
+
+Ce sort d'abjuration provoque l'absorption de tout sort lancé contre le mage. Un total de 99 niveaux de sorts sont affectés, mais lorsqu'il reste un niveaude sort de protection, il peut aussi bien absorberun sort de niveau 9 qu'un sort de niveau 1. Cesort ne protègera pas lelanceur se sorts contre une dissipation de la magie, mais il ne sera pas non plus dissipé non plus.~
+
+@1901 = ~Emprisonnement
+Niveau : 9
+École : Abjuration
+Portée : courte
+Durée : permanente
+Temps d'incantation : 1 round
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Lorsqu'un sort d'Emprisonnement est lancé, la cible devient prisonnière d'une petite sphère loin sous la surface de la terre dans un état d'animation suspendue, pleinement consciente de son sort. La victime reste ainsi à moins que le sort inverse, Liberté, ne soit lancé. Sans cela, elle restera là pour un tour, au bout duquel elle mourra axphyxiée. Si un sort de Liberté est lancé dans la zone où la créature a été emprisonnée, elle réapparaîtra exactement à l'endroit où elle se tenait précédemment. Une Dissipation de la Magie ne libérera pas les victimes de ce sort. La résistance magique de la cible est ignorée.~
+
+//Divine spells.
+//Level 1.
+@2100 = ~Soleil Ardent
+Niveau : 1
+École : Évocation
+Sphère : Soleil
+Portée : longue
+Durée : instantanée
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde contre le souffle : partiel
+
+Au terme de l'incantation, un rayon de soleil tombe du ciel et va frapper la cible désignée par le prêtre. La créature touchée par le rayon subit 2d6 points de dégâts de feu plus 1d6 tous les deux niveaux du lanceur (jusqu'à un maximum de 6d6). Les créatures mortes-vivantes et les monstres vulnérables à la lumière du jour subissent des dégâts doublés (jusqu'à un maximum de 12d6). Si la cible réussit un jet de sauvegarde contre les souffles, elle ne subit que la moitié des dégâts. En sus des dégâts résiduels, les victimes qui ratent leur jet de sauvegarde sont aveuglées pendant 1 round.~
+
+//Level 2.
+@2200 = ~Connaissance de l'Adversaire
+Niveau : 2
+École : Divination
+Sphère: Divination
+Portée : longue
+Durée : 2 tours
+Temps d'incantation : 2
+Zone d'effet : 1 créature 
+Jet de sauvegarde : annule 
+
+Lorsque ce sort est lancé, les yeux du jeteur de sorts rayonnent d'énergie magique, lui permettant de lire l'aura d'une créature, et ainsi découvrir ses forces et ses faiblesses. Pendant toute la durée du sort, la résistance physique de la cible est réduite de 10 % et tous les jets d'attaques contre cette cible reçoivent un bonus de +2. Certains dispositifs magiques annulent les effets d'une Connaissance de l'Adversaire. De plus, ce sort n'a aucun effet contre les créatures ne dégageant pas d'aura, comme les créatures artificielles. La résistance magique de la cible est ignorée.~
+
+@2201 = ~Bourrasque
+Niveau : 2
+École : Évocation
+Sphère : Elémentaire (Air)
+Portée : jeteur du sort
+Durée : instantanée
+Temps dincantation : 1
+Zone d'effet : spéciale
+Jet de sauvegarde : spécial
+
+Ce sort génère une violente rafale de vent émanant du lanceur de sorts et qui affecte toutes les créatures ennemies situées sur son chemin. Celles à moins de 2 mètres doivent réussir un jet de sauvegarde contre le souffle ou être projetées en arrière par la force de la bourrasque et perdre connaissance pendant 1 round. De plus, ce sort dispersera tous les nuages, y compris ceux créés par magie comme le Nuage Mortel, et les nuées d'insectes dans la zone d'effet.~
+
+//Level 3.
+@2300 = ~Convocation d'Insectes
+Niveau : 3 
+École : Conjuration
+Sphère : Animale
+Portée : longue
+Durée : 6 rounds
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : spécial
+
+Ce sort attire un nuage ou un essaim d'insectes qui attaquent un ennemi du lanceur de sorts. Cet essaim se réunit en un point choisi dans le rayon d'action du sort, et attaque la créature désignée par le lanceur du sort.
+
+Pendant toute le durée du sort, la créature affectée combat avec une pénalité de -2 à ses jets d'attaque et à sa classe d'armure. De plus, chaque round, la victime subit 2d3 points de dégâts venant des morsures d'insectes, a 100 % de chance de rater le lancement des sorts, et doit réussir un jet de sauvegarde contre le poison à +2 ou s'enfuir de peur. Dans le cas oùelleréussit un jet de sauvegarde contre le souffle à -2, la cible parvient à éviter une grande partie de l'essaim, réduisant les dégâts des morsures de moitié et annulant complètement la pénalité de lancement de sort. La résistance à la magie de la cible est ignorée.~
+
+@2301 = ~Annulation d'Enchantement
+Niveau : 3
+École : Abjuration
+Sphère : Toutes
+Portée : courte
+Durée : permanente 
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun 
+
+Avec ce sort, le prêtre peut libérer une victime d'enchantements ou de malédictions. Le sort peut inverser les effets de la confusion et de la débilité mentale, libérer une victime d'unepétrification, d'un sommeil magique ou d'un charme, et annuler les effets d'une malédiction. Annulation d'Enchantement ne permet pas de supprimer la malédiction d'une arme ou d'un objet magique, mais permet à un personnage porteur d'un objet maudit de s'en débarrasser. Certaines malédictions spéciales ne sont pas neutralisées par ce sort, ou ne peuvent l'être que par un prêtre d'un certain niveau ou grâce à un rituel particulier.~
+
+//Level 5.
+@2500 = ~Fléau d'Insectes
+Niveau : 5
+École : Conjuration
+Sphère: Animale
+Portée : longue
+Durée : 6 rounds
+Temps d'incantation : 5
+Zone d'effet : cible, et les ennemis se trouvant à moins de 9 mètres
+Jet de sauvegarde : spécial
+
+Lorsque ce sort est lancé, une foule d'insectes rampants, sautants et volants se réunissent en un essaim, attaquant tout dabord la cible du sort, puis se déplaçant sur tous les ennemis du lanceur présents dans la zone deffet. L'invisibilité ne protège pas de ce sort.
+
+Pendant toute le durée du sort, les créatures affectées combattent avec une pénalité de -2 à leurs jets d'attaque et à leur classe d'armure. De plus, les victimes subissent à chaque round 2d3 points de dégâts venant des morsures d'insectes et ont 100 % de chance de rater le lancement dun sort. Si la cible réussit un jet de sauvegarde contre le souffle avec un malus de 2, elle parvient à éviter une grande partie de l'essaim, réduisant les dégâts des morsures de moitié et annulant complètement la pénalité de lancement de sort. La résistance à la magie n'affecte pas ce sortilège.~
+
+//Level 6.
+@2600 = ~Dégénérescence
+Niveau : 6
+École : Altération, Nécromancie
+Sphère : Combat, Nécromancie
+Portée : moyenne
+Durée : spéciale
+Temps d'incantation : 6
+Zone d'effet : 1 créature
+Jet de sauvegarde contre le poison : partiel
+
+Ce sort affecte une seule créature vivante. Il provoque une dégénérescence du corps de la victime qui se propage rapidement. La maladie provoque instantanément une pénalité permanente de -1 à la force, à la dextérité et à la constitution. Si la cible rate un jet de sauvegarde contre le poison à -4, la dégénérescence lui infligera 1 point de dégâts par seconde, jusquà un total de 60 points de dégâts, ainsi qu'un autre point de malus à chaque attribut physique tous les 5 rounds. La créature affectée sera aussi ralentie pendant toute la durée de la dégénérescence, et les points de capacité perdus avec ce sort ne pourront être récupérés que grâce à un sort de Guérison des Maladies, de Guérison, ou de Restauration Majeure. La résistance à la magie n'affecte pas ce sortilège.~
+
+// druid version
+@2601 = ~Régénération
+Niveau : 6
+École : Altération
+Sphère : Guérison
+Portée : toucher
+Durée : 3 tours
+Temps d'incantation : 6
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce puissant sort permet au jeteur de sorts de donner la capacité de régénération à une créature. Toutes ses blessures seront guéries et même les membres sectionnés repousseront grâce à ce sort. Le bénéficiaire récupérera 1 point de vie par seconde (jusqu'à un maximum de 180 points de vie en 3 tours au niveau 10). Le sort dure jusqu'à dissipation ou jusqu'à expiration. Ce sort n'est pas cumulatif avec lui-même.~
+
+@2602 = ~Barrière de Lames
+Niveau : 6
+Ecole : Conjuration
+Sphère : Garde, Création
+Portée : jeteur du sort
+Durée : 1 tour
+Temps d'incantation : 6
+Zone d'effet : rayon de 2 mètres
+Jet de sauvegarde : aucun
+
+Le prêtre utilise ce sort pour créer un mur de lames tournoyantes, acérées comme des rasoirs. Elles gravitent à grande vitesse autour du lanceur, formant une dangereuse barrière. Les créatures à moins de deux mètres subissent 1d8 points de dégâts tranchants toutes les 3 secondes, sauf si elles font partie du groupe du prêtre. La résistance magique des créatures affectées est ignorée.
+
+Notez que les sorts comme Invisibilité, Porte d'ombre, etc. ne fonctionneront pas sur le lanceur s'il est protégé par une Barrière de Lames. De plus, les clercs/voleurs et clercs/rôdeurs sous l'effet de ce sort ne pourront pas se cacher dans l'ombre tant que le sort n'aura pas expiré.~
+
+//Level 7.
+@2700 = ~Doigt de Mort
+Niveau : 7
+École : Nécromancie
+Sphère : Combat
+Portée : longue
+Durée : permanente
+Temps d'incantation : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde contre la mort : partiel
+
+Le sort Doigt de Mort absorbe la force vitale de la créature ciblée. Le lanceur du sort pointe son doigt en direction de sa cible une fois l'incantation terminée. Si la cible rate un jet de sauvegarde contre la mort à -2, elle est tuée sur le coup. Dans le cas d'un jet de sauvegarde réussi, elle reçoit malgré tout 2d8 points de dégâts, plus 1 point de dégât par niveau du lanceur de sort, jusqu'àun maximum de 2d8 + 20.~
+
+// cleric version
+@2701 = ~Régénération
+Niveau : 7
+École : Nécromancie
+Sphère : Guérison
+Portée : toucher
+Durée : 3 tours
+Temps d'incantation : 6
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce puissant sort permet au jeteur de sorts de donner la capacité de régénération à une créature. Toutes ses blessures seront guéries et même les membres sectionnés repousseront grâce à ce sort. Le bénéficiaire récupérera 1 point de vie par seconde (jusqu'à un maximum de 180 points de vie en 3 tours au niveau 10). Le sort dure jusqu'à dissipation ou jusqu'à expiration. Ce sort n'est pas cumulatif avec lui-même.~
+
+@2702 = ~Fatalité Rampante
+Niveau : 7
+Ecole : Conjuration
+Sphère : Animale
+Portée : longue
+Durée : 6 rounds
+Temps d'incantation : 5
+Zone d'effet : cible, et ennemis se trouvant à moins de 9 mètres
+Jet de sauvegarde : spécial
+
+En prononçant le sort de Fatalité Rampante, le lanceur invoque une horde da'rachnides, d'insectes, et de myriapodes venimeux, mordeurs et piqueurs. Ce tapis vivant recouvre une large surface, se propageant sur toutes les créatures dans un rayon de 9 mètres autour de la cible.
+
+Pendant toute le durée du sort, les créatures affectées combattent avec une pénalité de -2 à leurs jets d'attaque et à leur classe darmure. De plus, chaque round, les victimes subissent 2d3 points de dégâts venant des morsures d'insectes, ont 100 % de chance de rater le lancement d'un sort, et doivent réussir un jet de sauvegarde contre la mort à -2 ou être empoisonnées et prises de panique. Dans le cas dun jet de sauvegarde contre le souffle à -4 réussi, la cible parvient à éviter une grande partie de l'essaim, réduisant les dégâts des morsures de moitié et annulant complètement la pénalité de lancement de sort. Les créatures empoisonnées subissent 6 points de dégâts supplémentaires chaque round pendant 3 rounds ou jusqu'à ce qu'elles soient soignées. La résistance à la magie n'affecte pas ce sort.~
+
+//Resource strings.
+@10000 = ~Absorption Mineure de Larloch~
+@10001 = ~Toucher Vampirique~
+@10002 = ~Nuage Incendiaire~
+@10003 = ~Flèche Enflammée~

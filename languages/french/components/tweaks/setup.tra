@@ -1,0 +1,35 @@
+//Description strings => Descriptions.
+//Wizard armor spells => Sorts d'armure de mage.
+@1000 = ~Armure de mage
+
+Niveau : 1
+École : Conjuration
+Portée : jeteur du sort
+Durée : 8 heures
+Temps d'incantation : 1 round 
+Zone d'effet : jeteur du sort
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, le magicien crée un champ de force magique qui fixe sa classe d'armure de base à 6. Cet effet s'améliore de 1 point de CA par tranche de quatre niveaux du lanceur, jusqu'à une classe d'armure minimale de 4 au niveau 9. Ce sort ne fonctionne pas avec d'autres formes d'armures magiques, mais il s'ajoute au bonus de Dextérité et aux autres bonus à la CA. L'armure ne pèse rien, n'encombre pas l'utilisateur et n'exclut pas non plus la possibilité de lancer des sorts. Le sort dure jusqu'à dissipation ou jusqu'à expiration.~
+
+@1001 = ~Armure Fantomatique
+Niveau : 3
+École : Illusion
+Portée : toucher
+Durée : 10 tours
+Temps d'incantation : 3
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+En lançant ce sort, le magicien crée une armure intangible mais quasi réelle. Ce matériau demi-illusoire le recouvre et lui donne effectivement une protection réelle tant que ses adversaires ne se mettent pas à douter sérieusement de l'existence de l'armure (en détectant l'illusion) et tant qu'aucun sort de Dissipation de la Magie ou de Détection des Illusions n'est lancé. Jusqu'à dissipation, ce sort donne au personnage une classe d'armure de base de 2. Ce sort ne fonctionne pas avec d'autres formes d'armures magiques, mais il s'ajoute au bonus de Dextérité et, dans le cas des guerriers/mages, au bonus du bouclier. L'armure ne pèse rien, n'encombre pas l'utilisateur et n'exclut pas non plus la possibilité de lancer des sorts. Le halo de lumière fantomatique qui entoure le bénéficiaire accorde un bonus de +20 % pour se cacher dans l'ombre, ce qui fait de cette armure un des sorts préférés des mages/voleurs.~
+
+@1002 = ~Armure Spirituelle
+Niveau : 4
+École : Nécromancie
+Portée : toucher
+Durée : 10 tours
+Temps d'incantation : 4
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce sort se sert de l'énergie vitale de la cible pour créer une barrière corporelle autour de son corps. L'armure ne pèse rien et ne gène ni les déplacements ni les incantations. L'Armure Spirituelle ne se cumule pas avec une autre armure, mais ses effets s'ajoutent aux bonus de dextérité, boucliers et anneaux magiques. La classe d'armure de la cible passe à 1, et ses jets de sauvegarde contre la Mort reçoivent un bonus de +3. Cependant, lorsque ce sort expire, il existe le danger d'un drainage de l'énergie vitale du porteur. S'il rate un jet de sauvegarde contre les sorts, il subira 2d4 points de dégâts.~
